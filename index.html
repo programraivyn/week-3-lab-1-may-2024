@@ -1,9 +1,14 @@
 <html>
   <head>
-    <title>Learning CSS</title>
+    <title>I Love Skepta</title>
     <style>
+      header {
+        background-color: paleturquoise;
+        text-align: center;
+      }
+
       h1 {
-        color: red;
+        color: darkorchid;
       }
 
       p {
@@ -18,26 +23,91 @@
       /* TODO: add styles for footer  */
 
       .paragraph-1 {
-        background-color: pink;
+        background-color: plum;
+        font-size: 12px;
+        text-align: right;
+        padding: 3px;
+        margin: 90px;
+        border: 2px solid rgb(202, 239, 221);
+      }
+
+      .paragraph-2 {
+        background-color: lightblue;
+        font-size: 14px;
+        text-align: center;
+        padding: 3px;
+        border: 2px solid rgb(249, 215, 151);
+        margin: 80px;
+      }
+
+      .paragraph-3 {
+        background-color: peachpuff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+        padding: 3px;
+        border: 2px dotted plum;
+        margin: 80px;
+      }
+
+      ul {
+        background-color: plum;
+        text-align: center;
+        padding: 20px;
+        margin-right: 90px;
+        margin-bottom: 300px;
+        border: dotted powderblue;
+        float: right;
+      }
+
+      table {
+        background-color: azure;
+        border: 3px solid rgb(173, 243, 243);
+        margin-left: 200px;
+      }
+
+      td {
+        border: 2px solid plum;
+      }
+
+      button {
+        background-color: plum;
+        border: 1px dotted powderblue;
+        margin-left: 200px;
+        margin-top: 5px;
+      }
+
+      footer {
+        font-size: 5px;
+        text-align: center;
+        margin-top: 200px;
       }
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1 style="text-decoration: underline">I like cats!
+      <h1 style="text-decoration: line-through">SKEPTA OBSESSION
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="">
-        <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar <strong>mattis</strong> nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam.    
+      <p class="paragraph-1" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <em>So here it is</em>, I'm kind of what some would considered <del>fascinated</del>
+        by Skepta. What's a Skepta, you ask? Well, Skepta is an artist. He is also
+        an exquisite specimen of art, if I may add. I know, I know.. that sounds almost
+        <strong>inappropriate</strong>, but I promise I just mean he's very well-dressed
+        and his countenance is pleasing to the eye. 
       </p>
     
-      <p style="">
+      <p class="paragraph-2" style="font-weight: bolder;">
+        As you can see here, the font weight is much heavier or <u>bolder</u> rather
+        than you saw in the previous paragraph. Now my goal is to type as much as 
+        possible without losing sight of the format I have here before me. You can't
+        see it the way I can, but you will be able to understand what I mean by the time
+        that you finish reading this! Oops, I forgot to mention early on in this section
+        that I <em>still</em> love SKEPTA! 
+      </p>
+    
+      <p class="paragraph-3" style="">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -48,37 +118,40 @@
         vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
         erat nam at lectus urna duis.
       </p>
-    
-      <p style="">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
-      </p>
-    
+
+      <ul style="font-style: oblique;">
+        <h2>My Favorite Skepta Songs</h2>
+        <li>
+          Energy
+        </li>
+        <li>
+          What Do You Mean?
+        </li>
+        <li>Pure Water
+        </li>
+        <li>Peace of Mind
+        </li>
+        <li>No Security
+        </li>
+      </ul>
       <table>
         <tr>
-          <th style="">item</th>
-          <th style="">price</th>
+          <th style="font-family: 'Courier New', Courier, monospace;">Item</th>
+          <th style="font-weight: 500;">Cost</th>
         </tr>
         <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
+          <td style="">Happiness</td>
+          <td style="">Priceless</td>
         </tr>
         <tr>
           <td style="">
-            Cabbage patch doll
+            Kindness
           </td>
-          <td style="">$1.99</td>
+          <td style="">Free</td>
         </tr>
       </table>
     
-      <button style="">Buy Now!</button>
+      <button style="font-style: oblique;">Order Yours!</button>
     </main>
   
     <nav>
@@ -88,6 +161,7 @@
     </nav>
     
     <footer>
+      &copy; Created at CodeX by Vita Bates 2024 All Rights Reserved.
     </footer>
 
     <script src="./script.js"></script>
