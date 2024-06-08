@@ -46,7 +46,7 @@ You will start with an HTML document that needs style. There are several ways to
 - [x] Update the author in this README
 - [x] Add CSS rules to each of the style attributes on the page
 - [x] Create an HTML list and add style rules for it
-- [ ] Style h1, h2, p, em and others with internal CSS
+- [x] Style h1, h2, p, em and others with internal CSS
 - [x] Style header, main and footer
 - [x] Style a table with borders
 - [x] Style an element with a class
